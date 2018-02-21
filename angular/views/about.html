@@ -1,0 +1,36 @@
+<h3 class="text-center">About Us</h3>
+<div class="text-center checkbox">
+
+	<label title="first name">
+		First Name	
+		<input type="checkbox" name="fname" class="app-checkbox">
+	</label>
+	<div class="text-center">
+		<svg width="300" height="200">
+	  		<polygon points="100,10 40,198 190,78 10,78 160,198"
+	  		style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+		</svg>
+	</div>
+	<div class="container">
+			<div class="row">
+			<div class="col-md-6 offset-md-3 text-center">
+				<p ng-class="{'bg-blue' : blue,'bg-red' : red, 'bg-yellow' : yellow }" class="p-20 f-20">color 
+						<span ng-if="red">red</span>
+						<span ng-if="blue">blue</span>
+						<span ng-if="yellow">yellow</span>
+				</p>
+				<label>
+						<input type="checkbox" name="red" ng-model="red"> red
+				</label>
+				<label>
+						<input type="checkbox" name="yellow" ng-model="yellow"> yellow
+				<label>
+						<input type="checkbox" name="blue" ng-model="blue"> blue	
+				</label>
+			
+			</div>
+	</div>
+	</div>
+	
+	
+</div>

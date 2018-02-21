@@ -1,0 +1,26 @@
+.app-checkbox{
+	width: 20px;
+	height: 20px;
+	vertical-align: bottom;
+}
+.p-20{
+	padding: 20px;
+}
+.bg-blue{
+	background-color: blue;
+	font-size: 20px;
+	color: white;
+}
+.bg-yellow{
+	background-color: yellow;
+	font-style: italic; 
+	color: white;
+}
+.bg-red{
+	background-color: red;	
+	color: white;
+}
+.f-20{
+	transition: background-color ease-in-out 1s;	
+	border-radius: 3px;
+}

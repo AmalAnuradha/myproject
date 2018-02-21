@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="smartApp">
+<head>
+	<title>angular</title>
+	
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="bower_components/livereload-js/dist/livereload.js"></script>
+	<script src="bower_components/lodash/dist/lodash.js"></script>
+	<script src="bower_components/restangular/dist/restangular.js"></script>
+	<script src="config.js"></script>
+	<script src="controllers/main.js"></script>
+	<script src="controllers/controllers.js"></script>
+	<script src="services/userService.js"></script>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+					
+		
+
+</head>
+<body ng-controller="mainController" ui-view>
+
+<h1 class="text-center">Hi {{name}}</h1>
+<div ng-repeat="entity in entities" class="text-center">
+	<h3>{{entity.name}} {{entity.classes.name}}</h3>
+</div>
+
+
+</body>
+</html>

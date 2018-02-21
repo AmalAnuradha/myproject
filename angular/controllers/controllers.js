@@ -1,0 +1,2 @@
+
+smartApp.controller('mainController', mainController);
